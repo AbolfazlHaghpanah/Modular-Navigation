@@ -1,6 +1,6 @@
 [versions]
 agp = "8.5.0"
-googleAccompanistNavigationMaterial = "0.36.0"
+googleAccompanistNavigationMaterial = "1.7.6"
 koinCore = "4.0.0"
 kotlin = "2.0.21"
 coreKtx = "1.13.1"
@@ -17,7 +17,7 @@ navigationCompose = "2.8.3"
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
-com-google-accompanist-accompanist-navigation-material = { module = "com.google.accompanist:accompanist-navigation-material", version.ref = "googleAccompanistNavigationMaterial" }
+com-google-accompanist-accompanist-navigation-material = { module = "androidx.compose.material:material-navigation", version.ref = "googleAccompanistNavigationMaterial" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }

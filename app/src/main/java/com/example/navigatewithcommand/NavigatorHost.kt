@@ -12,8 +12,7 @@ import com.example.base_ui.IsLivanAvalible
 import com.example.base_ui.Navigator
 import com.example.goldoon.navigation.GoldoonScreens
 import com.example.livan.navigation.LivanScreens
-import com.google.accompanist.navigation.material.BottomSheetNavigator
-import com.google.accompanist.navigation.material.ExperimentalMaterialNavigationApi
+import androidx.compose.material.navigation.BottomSheetNavigator
 
 class NavigatorHost(
     internal val navController: NavHostController
@@ -61,7 +60,6 @@ class NavigatorHost(
     }
 }
 
-@OptIn(ExperimentalMaterialNavigationApi::class)
 @Composable
 fun rememberNavigator(bottomSheetNavigator: BottomSheetNavigator): NavigatorHost {
     val navController = rememberNavController(bottomSheetNavigator)

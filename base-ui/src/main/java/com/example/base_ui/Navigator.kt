@@ -1,7 +1,6 @@
 package com.example.base_ui
 
 import androidx.compose.runtime.Composable
-import kotlinx.serialization.Serializable
 
 interface Navigator {
     fun navigateBack()
@@ -16,7 +15,6 @@ interface Navigator {
         action: (result: T) -> Unit
     )
 }
-
 
 interface AppScreens
 

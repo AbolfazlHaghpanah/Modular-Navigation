@@ -6,8 +6,8 @@ import kotlinx.serialization.Serializable
 @Serializable
 object HomeScreens : AppScreens {
     @Serializable
-    object Home
+    object Home : AppScreens
 
     @Serializable
-    object RouteList
+    object RouteList : AppScreens
 }
